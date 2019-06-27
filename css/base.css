@@ -3,3 +3,77 @@
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+
+body{
+  color: #333;
+  font-family: Lato,sans-serif;
+  margin: 0 auto;
+  min-width: 1100px;
+}
+
+.header{
+  background-color: #fff;
+  color: 	#4e4e4e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 25;
+  width: 100%;
+}
+
+.title{
+  background-color: #f2f2f2;
+}
+
+.can-do{
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.latest-work{
+  background-color: #f2f2f2;
+}
+
+.skills{
+  background-color: #4e4e4e;
+  color: #fff;
+}
+
+.sns-links{
+  background-color: #f2f2f2;
+  color: #74cfae;
+}
+
+.footer{
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.inner{
+  margin: 0 auto;
+  text-align: center;
+  width: 1100px;
+}
+
+.h1{
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.h2{
+  font-family: Raleway,sans-serif;
+  font-size: 24px;
+}
+
+.text{
+  font-size: 20px;
+  line-height: 25px;
+}
