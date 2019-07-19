@@ -12,6 +12,10 @@ body{
   min-width: 1100px;
 }
 
+img{
+  vertical-align: top;
+}
+
 .header{
   background-color: #fff;
   color: 	#4e4e4e;
@@ -20,6 +24,9 @@ body{
   left: 0;
   z-index: 25;
   width: 100%;
+}
+.main{
+  padding-top: 70px;
 }
 
 .title{
@@ -61,11 +68,21 @@ body{
   text-align: center;
   width: 1100px;
 }
+@media screen and (max-width:1199px){
+  .inner{
+    width: 97%;
+  }
+}
 
 .main-title{
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
+}
+@media screen and (max-width:767px){
+  .main-title{
+    font-size: 80px;
+  }
 }
 
 .index{

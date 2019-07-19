@@ -1,7 +1,4 @@
-img{
-  vertical-align: top;
-}
-
+/*header*/
 .header-inner{
   display: flex;
   justify-content: space-between;
@@ -18,22 +15,44 @@ img{
   text-decoration: none;
   transition: 0.3s;
 }
-.contact-btn{
-  padding: 14px 12px;
-}
 .button:hover{
   color: #333;
 }
+.contact-btn{
+  padding: 14px 12px;
+}
+.burger-menu{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #ddd;
+  display: none;
+  padding: 10px;
+}
+@media screen and (max-width:767px){
+  .contact-btn-box{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+  }
+}
 
+/*title*/
 .title-inner{
-  padding: 320px 0px 250px;
+  padding: 250px 0px 250px;
 }
 .sub-title{
   color: #c0c0c0;
   font-size: 30px;
   margin-top: 20px;
 }
+@media screen and (max-width:767px){
+  .title-inner{
+    padding: 160px 0px 130px;
+  }
+}
 
+/*what we can do*/
 .can-do-inner{
   padding-top: 50px;
 }
@@ -44,7 +63,18 @@ img{
 .can-do-text{
   margin-top: 35px;
 }
+@media screen and (max-width:1199px){
+  .can-do-inner{
+    padding: 50px 0px 25px;
+  }
+  .can-do-textbox{
+    float: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
 
+/*our latest work*/
 .latest-work-inner{
   padding: 60px 0px 70px;
 }
@@ -80,7 +110,38 @@ img{
   margin-left: 90px;
   padding: 14px 20px;
 }
+@media screen and (max-width:1199px){
+  .works-img-box{
+    margin: 40px 0px 80px;
+    width: fit-content;
+  }
+  .works-img{
+    display: block;
+    margin-left: 0px;
+  }
+  .works-img:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  .works-img:nth-child(n+4){
+    margin-top:0px;
+  }
+  .works-img:last-child{
+    margin-bottom: 0px;
+  }
+  .latest-work-textbox{
+    display: block;
+  }
+  .latest-work-text{
+    width: 100%;
+  }
+  .email-btn{
+    margin-left: 0px;
+    margin-top: 40px;
+    width: fit-content;
+  }
+}
 
+/*our skills*/
 .skills-inner{
   padding: 70px 0px 100px;
 }
@@ -99,7 +160,20 @@ img{
   margin-top: 10px;
   font-size: 16px;
 }
+@media screen and (max-width:1199px){
+  .skills-container{
+    display: block;
+  }
+  .skill-box{
+    margin-left: 0px;
+    margin-top: 88px;
+  }
+  .skill-box:nth-child(1){
+    margin-top: 0px;
+  }
+}
 
+/*SNS*/
 .sns-links-inner{
   display: flex;
   justify-content: center;
@@ -112,9 +186,15 @@ img{
   width: 185px;
 }
 .sns-icon-box:hover{
-  background: #fff;
-  
+  background: #fff;  
 }
+@media screen and (max-width:767px){
+  .sns-links-inner{
+    flex-direction: column;
+    padding: 50px 15px;
+  }
+}
+
 .footer-inner{
   text-align: right;
   padding: 20px 0px 25px;
