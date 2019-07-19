@@ -180,6 +180,10 @@
   .skill-box:nth-child(1){
     margin-top: 0px;
   }
+
+  .sns-icon-box{
+    width: 25%;
+  }
 }
 
 @media screen and (max-width:767px){
