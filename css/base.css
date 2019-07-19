@@ -9,7 +9,6 @@ body{
   color: #333;
   font-family: Lato,sans-serif;
   margin: 0 auto;
-  min-width: 1100px;
 }
 
 img{
@@ -68,21 +67,11 @@ img{
   text-align: center;
   width: 1100px;
 }
-@media screen and (max-width:1199px){
-  .inner{
-    width: 97%;
-  }
-}
 
 .main-title{
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-}
-@media screen and (max-width:767px){
-  .main-title{
-    font-size: 80px;
-  }
 }
 
 .index{
@@ -93,4 +82,16 @@ img{
 .text{
   font-size: 20px;
   line-height: 25px;
+}
+
+@media screen and (max-width:1199px){
+  .inner{
+    width: 97%;
+  }
+}
+
+@media screen and (max-width:767px){
+  .main-title{
+    font-size: 80px;
+  }
 }
